@@ -1,0 +1,11 @@
+{
+    "name": "Mwarda",
+    "alias": "mwarda",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Mwarda\\Providers\\MwardaServiceProvider"
+    ],
+    "files": []
+}

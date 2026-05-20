@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/mwarda",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Mwarda\\": "app/",
+            "Modules\\Mwarda\\Database\\Factories\\": "database/factories/",
+            "Modules\\Mwarda\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Mwarda\\Tests\\": "tests/"
+        }
+    }
+}
