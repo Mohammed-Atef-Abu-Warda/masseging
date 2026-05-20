@@ -18,6 +18,7 @@ jobs:
       with:
         php-version: '8.2' # يمكنك تغييرها حسب نسخة لارافل لديك
 
+
     # 2. تجهيز ملف الإعدادات البيئية المؤقت
     - name: Copy .env file
       run: php -r "file_exists('.env') || copy('.env.example', '.env');"
